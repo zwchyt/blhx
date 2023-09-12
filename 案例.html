@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .w {
+            width: 1200px;
+            height: 2000px;
+            margin: auto;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .header {
+            width: 100%;
+            height: 50px;
+            background-color: #fff;
+        }
+
+        .logo img {
+            float: left;
+            width: 60px;
+            height: 50px;
+        }
+
+        .dhl {
+            height: 50px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        .nav {
+            overflow: hidden;
+            width: 380px;
+            height: 40px;
+            float: left;
+            margin-top: 6px;
+            margin-right: 60px;
+        }
+        .nav ul li {
+            float: left;
+            flex: 1;
+            margin-left: 30px;
+            /* padding-left: 50px; */
+        }
+        .nav ul li a {
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: skyblue;
+            margin-left: 14px;
+        }
+        .nav ul li a:hover {
+            color: orange;
+        }
+        .ssk input {
+            float: left;
+            width: 300px;
+            height: 35px;
+            margin-left: 325px;
+            margin-top: 7px;
+            border-radius: 12px;
+        }
+        input:focus {
+            /* background-color: lightskyblue; */
+            color: red;
+            font-size: 15px;
+        }
+        .ssk button {
+            width: 60px;
+            height: 35px;
+            float: left;
+            border:1px solid skyblue;
+            margin-left: 15px;
+            margin-top: 7px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 10px;
+            color: skyblue;
+        }
+        .bx {
+            height: 421px;
+            margin: 0 auto;
+            /*background-color: skyblue;*/
+        }
+        .shan {
+            height: 421px;
+            padding-top: 10px;
+            margin: 0 auto;
+        }
+        .shan img {
+            width: 100%;
+            height: 100%;
+            /* padding-top: 5px; */
+            border-radius: 30px;
+        }
+        .bx img {
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="header w">
+    <div class="dhl w">
+        <div class="logo">
+            <img src="image/logo1.webp" alt="">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">铁血</a></li>
+                <li><a href="#">白鹰</a></li>
+                <li><a href="#">东煌</a></li>
+                <li><a href="#">皇家</a></li>
+                <li><a href="#">重樱</a></li>
+                <li><a href="#">攻略</a></li>
+            </ul>
+        </div>
+        <div class="ssk w">
+            <label>
+                <input type="text" name="碧蓝航线" checked="checked">
+            </label>
+            <button>登录</button>
+        </div>
+    </div>
+</div>
+
+<div class="bx w">
+    <img src="/碧蓝航线/image/背景.webp" alt="123">
+</div>
+<div class="shan w">
+    <img src="/碧蓝航线/image/伞.webp" alt="123">
+</div>
+<div class="shan w">
+    <img src="/碧蓝航线/image/2.webp" alt="123">
+</div>
+</body>
+</html>
